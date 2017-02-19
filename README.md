@@ -8,6 +8,11 @@ You need to install `Flask`:
 
 `sudo pip install Flask`
 
+Clone this repository and cd into it:
+
+`git clone https://github.com/Ritiek/LAN-Copy-Paste`
+`cd LAN-Copy-Paste`
+
 Now just run the python script:
 
 `sudo python copy-paste-server.py`
