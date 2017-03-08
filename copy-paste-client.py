@@ -25,3 +25,4 @@ if len(sys.argv) == 1:
         print soup.find('textarea').get_text()
 else:
         data = 'text=' + sys.argv[1] +'%21&my-form=Upload+Text'
+        requests.post(url, headers=headers, data=data)
