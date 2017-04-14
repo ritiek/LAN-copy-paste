@@ -21,11 +21,15 @@ Copy and paste text across devices on LAN.
 
 - Now just run the python script:
 
+### Server:
+
 `sudo python copy-paste-server.py`
 
 - Goto `YourIP:6664` to start using this universal clipboard!
 
 - You can edit out the script to use any custom port you like.
+
+### Client:
 
 - You can also use `copy-paste-client.py` to retrieve and post text directly via the command-line
 
