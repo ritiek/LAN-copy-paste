@@ -5,7 +5,7 @@ Copy and paste text across devices on LAN.
 ## Screenshots:
 
 <img src="http://i.imgur.com/BQxzMov.png" width="350">
-<img src="http://i.imgur.com/GwKkCpu.png" width="350">
+<img src="http://i.imgur.com/ciYhuyr.png" width="350">
 
 ## Installation & Usage:
 
