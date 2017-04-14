@@ -11,19 +11,19 @@ Copy and paste text across devices on LAN.
 
 - You need to install `Flask`:
 
-`sudo pip install Flask`
+  - `sudo pip install Flask`
 
 - Clone this repository and cd into it:
 
-`git clone https://github.com/Ritiek/LAN-Copy-Paste`
+  - `git clone https://github.com/Ritiek/LAN-Copy-Paste`
 
-`cd LAN-Copy-Paste`
-
-- Now just run the python script:
+  - `cd LAN-Copy-Paste`
 
 ### Server:
 
-`sudo python copy-paste-server.py`
+- To run the copy-paste server:
+
+  - `sudo python copy-paste-server.py`
 
 - Goto `YourIP:6664` to start using this universal clipboard!
 
@@ -33,7 +33,7 @@ Copy and paste text across devices on LAN.
 
 - You can also use `copy-paste-client.py` to retrieve and post text directly via the command-line
 
-  For example:
+-  For example:
   
   - To retrieve text: `sudo python copy-paste-client.py > TextOnServer.txt`
   
