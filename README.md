@@ -35,9 +35,9 @@ Copy and paste text across devices on LAN.
 
 -  For example:
   
-  - To retrieve text: `sudo python copy-paste-client.py > TextOnServer.txt`
+   - To retrieve text: `sudo python copy-paste-client.py > TextOnServer.txt`
   
-  - To post text: `sudo python copy-paste-client.py 'This text goes on the server'`
+   - To post text: `sudo python copy-paste-client.py 'This text goes on the server'`
 
 ## License:
 
