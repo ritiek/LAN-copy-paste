@@ -2,6 +2,10 @@
 
 Copy and paste text across devices on LAN.
 
+## Screenshots:
+
+<img src="http://i.imgur.com/BQxzMov.png" width="290"><img src="http://i.imgur.com/GwKkCpu.png" width="290">
+
 ## Installation & Usage:
 
 You need to install `Flask`:
