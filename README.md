@@ -1,6 +1,6 @@
 # LAN-Copy-Paste
 
-Copy and paste text across devices on LAN.
+Copy and paste text across LAN devices.
 
 ## Screenshots:
 
