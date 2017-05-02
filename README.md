@@ -11,7 +11,7 @@ Copy and paste text across LAN devices.
 
 - You need to install `Flask`:
 
-  - `sudo pip install Flask`
+  - `pip install -u Flask`
 
 - Clone this repository and cd into it:
 
@@ -23,9 +23,9 @@ Copy and paste text across LAN devices.
 
 - To run the copy-paste server:
 
-  - `sudo python copy-paste-server.py`
+  - `python copy-paste-server.py`
 
-- Goto `YourIP:6664` to start using this universal clipboard!
+- Go to `localhost:6664` to start using this universal clipboard!
 
 - You can edit out the script to use any custom port you like.
 
@@ -35,9 +35,9 @@ Copy and paste text across LAN devices.
 
 -  For example:
   
-   - To retrieve text: `sudo python copy-paste-client.py > TextOnServer.txt`
+   - To retrieve text: `python copy-paste-client.py > TextOnServer.txt`
   
-   - To post text: `sudo python copy-paste-client.py 'This text goes on the server'`
+   - To post text: `python copy-paste-client.py 'This text goes on the server'`
 
 ## License:
 
