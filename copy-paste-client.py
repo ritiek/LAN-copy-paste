@@ -1,9 +1,8 @@
-#!/bin/python
+#!/usr/bin/env python
 
 import requests
 import sys
 from bs4 import BeautifulSoup
-
 
 url = 'http://localhost:6664/'
 headers = {
@@ -20,9 +19,9 @@ headers = {
 }
 
 if len(sys.argv) == 1:
-        page = requests.get(url).text
-        soup = BeautifulSoup(page, 'html.parser')
-        print soup.find('textarea').get_text()
+    page = requests.get(url).text
+    soup = BeautifulSoup(page, 'html.parser')
+    print(soup.find('textarea').get_text())
 else:
-        data = 'text=' + sys.argv[1] +'%21&my-form=Upload+Text'
-        requests.post(url, headers=headers, data=data)
+    data = 'text=' + sys.argv[1] + '%21&my-form=Upload+Text'
+    requests.post(url, headers=headers, data=data)
