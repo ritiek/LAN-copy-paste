@@ -11,7 +11,7 @@ Copy and paste text across LAN devices.
 
 - You need to install `Flask`:
 
-  - `pip install -u Flask`
+  - `pip install -r requirements.txt`
 
 - Clone this repository and cd into it:
 
