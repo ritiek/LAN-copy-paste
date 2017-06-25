@@ -5,25 +5,21 @@ A very minimalistic way to copy-paste text across LAN devices.
 ## Screenshots:
 
 <img src="http://i.imgur.com/BQxzMov.png" width="350">
-<img src="http://i.imgur.com/ciYhuyr.png" width="350">
+<img src="http://i.imgur.com/ciYhuyr.png" width="330">
 
 ## Installation & Usage:
 
-- You need to install `Flask`:
-
-  - `pip install -r requirements.txt`
-
-- Clone this repository and cd into it:
-
-  - `git clone https://github.com/Ritiek/LAN-Copy-Paste`
-
-  - `cd LAN-Copy-Paste`
+```
+git clone https://github.com/Ritiek/LAN-Copy-Paste
+cd LAN-Copy-Paste
+pip install -r requirements.txt
+```
 
 ### Server:
 
 - To run the copy-paste server:
 
-  - `python copy-paste-server.py`
+`python copy-paste-server.py`
 
 - Go to `localhost:6664` to start using this universal clipboard!
 
@@ -33,11 +29,11 @@ A very minimalistic way to copy-paste text across LAN devices.
 
 - You can also use `copy-paste-client.py` to retrieve and post text directly via the command-line
 
--  For example:
+For example:
   
-   - To retrieve text: `python copy-paste-client.py > TextOnServer.txt`
+- To retrieve text: `python copy-paste-client.py > text_from_server.txt`
   
-   - To post text: `python copy-paste-client.py 'This text goes on the server'`
+- To post text: `python copy-paste-client.py 'This text goes on the server'`
 
 ## License:
 
