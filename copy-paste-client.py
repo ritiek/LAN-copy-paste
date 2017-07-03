@@ -23,5 +23,5 @@ if len(sys.argv) == 1:
     soup = BeautifulSoup(page, 'html.parser')
     print(soup.find('textarea').get_text())
 else:
-    data = 'text=' + sys.argv[1] + '%21&my-form=Upload+Text'
+    data = 'text=' + sys.argv[1] + '&my-form=Upload+Text'
     requests.post(url, headers=headers, data=data)
